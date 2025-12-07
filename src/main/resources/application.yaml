@@ -1,0 +1,12 @@
+spring:
+    application:
+        name: "glc"
+    datasource:
+        driver-class-name: "org.postgresql.Driver"
+        url: "jdbc:postgresql://localhost:5432/glc"
+        username: "glc-app"
+        password: "glc-app"
+    jpa:
+        show-sql: true
+    hibernate:
+        dialect: "org.hibernate.dialect.PostgreSQLDialect"
